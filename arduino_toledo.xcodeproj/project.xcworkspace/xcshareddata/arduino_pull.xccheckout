@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5CC4DEF4-4CD0-4751-BC36-9EDF0751F433</string>
+	<key>IDESourceControlProjectName</key>
+	<string>arduino_pull</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4E67CD23-6F48-4CEF-9C27-95A5C05903EA</key>
+		<string>https://github.com/miguelespada/pull_arduino.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>arduino_pull.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4E67CD23-6F48-4CEF-9C27-95A5C05903EA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/miguelespada/pull_arduino.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4E67CD23-6F48-4CEF-9C27-95A5C05903EA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4E67CD23-6F48-4CEF-9C27-95A5C05903EA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pull_arduino</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>694580BE-1CAB-4638-88ED-F751DAD003D0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>pull_arduino_paris</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F9D5E8724D5DDB643A5402F9EFB3FC8BAED7BFAC</key>
+		<string>https://github.com/miguelespada/arduino_paris.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pull_arduino_paris.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F9D5E8724D5DDB643A5402F9EFB3FC8BAED7BFAC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/miguelespada/arduino_paris.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F9D5E8724D5DDB643A5402F9EFB3FC8BAED7BFAC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9D5E8724D5DDB643A5402F9EFB3FC8BAED7BFAC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pull_arduino_paris</string>
+		</dict>
+	</array>
+</dict>
+</plist>

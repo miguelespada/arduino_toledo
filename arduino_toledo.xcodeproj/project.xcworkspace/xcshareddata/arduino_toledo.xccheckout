@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F9744F21-9DAE-4CDC-A89E-5108ADDA2EEE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>arduino_toledo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E29DED596A4C5735CD9051B346C6400F6DA3F82D</key>
+		<string>https://github.com/miguelespada/arduino_toledo.git</string>
+		<key>F9D5E8724D5DDB643A5402F9EFB3FC8BAED7BFAC</key>
+		<string>https://github.com/miguelespada/arduino_paris.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>arduino_toledo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E29DED596A4C5735CD9051B346C6400F6DA3F82D</key>
+		<string>../..</string>
+		<key>F9D5E8724D5DDB643A5402F9EFB3FC8BAED7BFAC</key>
+		<string>../../../pull_arduino_paris</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/miguelespada/arduino_toledo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E29DED596A4C5735CD9051B346C6400F6DA3F82D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E29DED596A4C5735CD9051B346C6400F6DA3F82D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>arduino_toledo</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9D5E8724D5DDB643A5402F9EFB3FC8BAED7BFAC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pull_arduino_paris</string>
+		</dict>
+	</array>
+</dict>
+</plist>
