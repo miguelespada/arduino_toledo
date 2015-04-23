@@ -20,6 +20,8 @@ public:
     int getRemotePort();
     string getRemoteHost();
     
+    bool useAudio();
+    
 private:
     static Settings* instance;
     Settings();

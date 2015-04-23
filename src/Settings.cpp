@@ -32,3 +32,7 @@ string Settings::getRemoteHost(){
     return getData("remote_host").asString();
 }
 
+bool Settings::useAudio(){
+    return getData("audio").asInt() == 1;
+}
+

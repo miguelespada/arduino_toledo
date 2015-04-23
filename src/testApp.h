@@ -29,5 +29,6 @@ public:
     
     ofSoundStream soundStream;
     OscAdapter osc;
+    bool bAudio;
 };
 
