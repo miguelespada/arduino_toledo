@@ -51,6 +51,8 @@ void Buffer::draw(){
     ofSetColor(245, 58, 235);
     ofSetLineWidth(1);
     
+    ofLine(0, -threshold, 256, -threshold);
+    
     //lets draw the volume history as a graph
     ofBeginShape();
     for (unsigned int i = 0; i < volHistory.size(); i++){
@@ -76,13 +78,15 @@ void Buffer::add(float *values, int pair){
     
     //lets go through each sample and calculate the root mean square which is a rough way to calculate volume
     for (int i = 0; i < 256; i++){
-        data[i]		= values[i * 2 + pair];
+        float v = values[i * 2 + pair];
+        
+        data[i]		= v * 100;
         curVol += data[i] * data[i];
         numCounted+=1;
     }
     
     //this is how we get the mean of rms :)
-    curVol /= (float)numCounted;
+    curVol /= (float) numCounted;
     
     // this is how we get the root of rms :)
     curVol = sqrt( curVol );
@@ -90,15 +94,19 @@ void Buffer::add(float *values, int pair){
     smoothedVol *= 0.93;
     smoothedVol += 0.07 * curVol;
 
+
+
     acc += smoothedVol;
     acc *= 0.99;
     
     
-    if(int(prevAcc * 10) != int(acc * 10) ){
+    if(acc * 10 > threshold && int(prevAcc * 10) != int(acc * 10) ){
+        
         if(pair == 0)
             osc->sendAction("/left", int(acc*10));
         if(pair == 1)
             osc->sendAction("/right", int(acc*10));
+        
     }
     
     prevAcc = acc;

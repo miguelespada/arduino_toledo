@@ -28,6 +28,7 @@ public:
     void update();
     void add(float *values, int pair);
     OscAdapter *osc;
+    int threshold;
     
 };
 

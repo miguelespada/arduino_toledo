@@ -27,6 +27,7 @@ void testApp::update(){
         left.update();
         right.update();
     }
+    ofSendMessage("[Info] Threshold [q/a]: " + ofToString(left.threshold));
 };
 
 
@@ -43,7 +44,19 @@ void testApp::draw(){
 
 //--------------------------------------------------------------
 void testApp::keyPressed  (int key){
-
+    switch (key) {
+        case 'q':
+            left.threshold ++;
+            right.threshold ++;
+            break;
+        case 'a':
+            left.threshold --;
+            right.threshold --;
+            break;
+            
+        default:
+            break;
+    }
 }
 
 //--------------------------------------------------------------
